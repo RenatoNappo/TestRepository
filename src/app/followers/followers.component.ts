@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FollowersComponent implements OnInit {
 
+  followers: any[];
+
   constructor() { }
 
   ngOnInit() {
